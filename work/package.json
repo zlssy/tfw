@@ -1,0 +1,25 @@
+{
+  "name": "tools_for_work",
+  "version": "1.0.0",
+  "description": "Tools for work",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlssy/tfw.git"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlssy/tfw/issues"
+  },
+  "homepage": "https://github.com/zlssy/tfw#readme",
+  "devDependencies": {
+    "electron": "^9.0.3"
+  }
+}

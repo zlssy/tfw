@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>小工具合集</title>
+  <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <style>
+    #result {
+      color: green;
+      line-height: 48px;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="images_for_ios.js"></script>
+  <!-- <input id="folder" type="file" directory webkitdirectory /> -->
+  <input type="button" value="选择处理文件夹" onclick="dealDir()" />
+  <div id="result"></div>
+</body>
+
+</html>
