@@ -1,0 +1,4 @@
+node_modules
+electron_dist
+package-lock.json
+*.log
